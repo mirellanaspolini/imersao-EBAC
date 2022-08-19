@@ -49,11 +49,16 @@
     text-transform: uppercase;
 }
 
-.left-section h2 {
+h2 {
     margin-bottom: 1rem;
-    color: #63390a;
+    color: #583308;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.right-section h2 {
+    margin-bottom: .5rem;
+    color: #794c19;
 }
 
 .contact-info {
@@ -100,14 +105,11 @@
     color: #3b2205;
 }
 
-.right-section h2 {
-    margin-bottom: .5rem;
-    color: #794c19;
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
 .box div:nth-child(2) p {
     padding-left: 5px;
     border-left: 2px solid #794c19;
+}
+
+.box:last-child {
+    margin-bottom: 3rem;
 }
