@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.resume-contents {
+    display: grid;
+    grid-template-columns: 1.6fr 3fr;
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.left-section {
+    padding: 2rem;
+    height: 100%;
+    background-color: #9c764a;
+}
+
+.right-section {
+    padding: 2rem;
+    height: 100%;
+    background-color: #f0ddb5;
+    border-radius: 0px 60px 0px 0px;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 90%;
+}
+
+.profile h1 {
+    color: #221302;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.left-section h2 {
+    margin-bottom: 1rem;
+    color: #63390a;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info ul li,
+.skills ul li {
+    margin-bottom: 0.8rem;
+    color: #221302;
+}
+
+.contact-info ul li i {
+    padding-right: 1rem;
+}
+
+.right-section h1 {
+    margin-bottom: 1rem;
+    color: #221302;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-inner {
+    font-size: 18px;
+    color: #3d2407;
+    margin-bottom: 2rem;
+}
+
+.about-inner > p {
+    margin-bottom: 1rem;
+}
