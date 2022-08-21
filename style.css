@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: "Roboto", "Arial", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .resume-contents {
@@ -72,7 +72,9 @@ h2 {
 }
 
 .contact-info ul li i {
-    padding-right: 1rem;
+    width: 1.7rem;
+    /* padding-right: .5rem; */
+    vertical-align: middle;
 }
 
 .right-section h1 {
@@ -112,4 +114,12 @@ h2 {
 
 .box:last-child {
     margin-bottom: 3rem;
+}
+
+ p{
+    font-family: "Lora", serif;
+}
+
+.box div:first-child p {
+    font-family: "poppins", sans-serif;
 }
