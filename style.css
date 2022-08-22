@@ -57,7 +57,7 @@ h2 {
 }
 
 .right-section h2 {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     color: #794c19;
 }
 
@@ -116,10 +116,28 @@ h2 {
     margin-bottom: 3rem;
 }
 
- p{
+p {
     font-family: "Lora", serif;
 }
 
 .box div:first-child p {
     font-family: "poppins", sans-serif;
+}
+
+@media (max-width: 830px) {
+    .resume-contents {
+        grid-template-columns: 1fr;
+    }
+    .left-section {
+        border-radius: 0px 60px 0px 0px;
+    }
+    .right-section {
+        border-radius: initial;
+    }
+    .profile-img {
+        width: 50%;
+    }
+    .box {
+        grid-template-columns: 0.7fr 1fr;
+    }
 }
